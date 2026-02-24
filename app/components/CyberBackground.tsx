@@ -45,7 +45,7 @@ export default function CyberBackground() {
           size: Math.random() * 2 + 0.5,
           speedX: (Math.random() - 0.5) * 0.5,
           speedY: (Math.random() - 0.5) * 0.5,
-          opacity: Math.random() * 0.5 + 0.2,
+          opacity: Math.random() * 0.5 + 0.5,
         });
       }
     };
@@ -78,7 +78,7 @@ export default function CyberBackground() {
         ctx.beginPath();
         ctx.moveTo(connection.from.x, connection.from.y);
         ctx.lineTo(connection.to.x, connection.to.y);
-        ctx.strokeStyle = `rgba(0, 191, 255, ${connection.opacity})`;
+        ctx.strokeStyle = `rgba(157, 0, 255, ${connection.opacity})`;
         ctx.lineWidth = 0.5;
         ctx.stroke();
       });
@@ -87,7 +87,7 @@ export default function CyberBackground() {
       particles.forEach((particle) => {
         ctx.beginPath();
         ctx.arc(particle.x, particle.y, particle.size, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(0, 191, 255, ${particle.opacity})`;
+        ctx.fillStyle = `rgba(157, 0, 255, ${particle.opacity})`;
         ctx.fill();
 
         // Update position
@@ -122,7 +122,7 @@ export default function CyberBackground() {
   return (
     <canvas
       ref={canvasRef}
-      className="pointer-events-none fixed inset-0 -z-10 opacity-60"
+      className="pointer-events-none fixed inset-0 -z-10 opacity-90"
       aria-hidden="true"
     />
   );

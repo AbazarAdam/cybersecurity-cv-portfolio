@@ -53,10 +53,10 @@ export default function EarthPlanet() {
           border-radius: 50%;
           animation: earthRotate 30s linear 0s infinite;
           box-shadow: 
-            0px 0 20px rgba(0, 191, 255, 0.3),
-            -5px 0px 8px #00bfff inset,
+            0px 0 20px rgba(157, 0, 255, 0.3),
+            -5px 0px 8px #9d00ff inset,
             15px 2px 25px #000 inset,
-            -24px -2px 34px rgba(0, 191, 255, 0.6) inset,
+            -24px -2px 34px rgba(157, 0, 255, 0.6) inset,
             250px 0px 44px rgba(0, 0, 0, 0.4) inset,
             150px 0px 38px rgba(0, 0, 0, 0.67) inset;
           opacity: 0.85;
@@ -101,31 +101,31 @@ export default function EarthPlanet() {
         #curved-corner-bottomleft:before {
           bottom: 0;
           left: 0;
-          box-shadow: -5px 5px 0 0 rgba(0, 191, 255, 0.8);
+          box-shadow: -5px 5px 0 0 rgba(157, 0, 255, 0.8);
         }
 
         #curved-corner-bottomright:before {
           bottom: 0;
           right: 0;
-          box-shadow: 5px 5px 0 0 rgba(0, 191, 255, 0.8);
+          box-shadow: 5px 5px 0 0 rgba(157, 0, 255, 0.8);
         }
 
         #curved-corner-topleft:before {
           top: 0;
           left: 0;
-          box-shadow: -5px -5px 0 0 rgba(0, 191, 255, 0.8);
+          box-shadow: -5px -5px 0 0 rgba(157, 0, 255, 0.8);
         }
 
         #curved-corner-topright:before {
           top: 0;
           right: 0;
-          box-shadow: 5px -5px 0 0 rgba(0, 191, 255, 0.8);
+          box-shadow: 5px -5px 0 0 rgba(157, 0, 255, 0.8);
         }
 
         @keyframes twinkling {
           0%,
           100% {
-            opacity: 0.1;
+            opacity: 0.4;
           }
           50% {
             opacity: 1;

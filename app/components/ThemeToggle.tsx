@@ -19,7 +19,7 @@ export { ThemeContext };
 
 export default function ThemeToggle() {
   const [mounted, setMounted] = useState(false);
-  const [localTheme, setLocalTheme] = useState<Theme>("dark");
+  const [localTheme, setLocalTheme] = useState<Theme>("light");
 
   useEffect(() => {
     setMounted(true);
@@ -28,7 +28,8 @@ export default function ThemeToggle() {
       setLocalTheme(saved);
       document.documentElement.classList.remove("dark", "light");
       document.documentElement.classList.add(saved);
-    } else if (window.matchMedia("(prefers-color-scheme: light)").matches) {
+    } else {
+      // Default to light if no preference
       setLocalTheme("light");
       document.documentElement.classList.remove("dark", "light");
       document.documentElement.classList.add("light");
@@ -36,7 +37,7 @@ export default function ThemeToggle() {
   }, []);
 
   const toggleTheme = () => {
-    const newTheme = localTheme === "dark" ? "light" : "dark";
+    const newTheme = localTheme === "light" ? "dark" : "light";
     setLocalTheme(newTheme);
     localStorage.setItem("theme", newTheme);
     document.documentElement.classList.remove("dark", "light");

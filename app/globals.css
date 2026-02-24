@@ -8,42 +8,42 @@
    ======================================== */
 
 :root {
-  /* Dark Theme (Default) */
-  --background: #000000;
-  --background-secondary: #0a0a0f;
+  /* Luxury Dark Purple Theme (Default) */
+  --background: #05000a;
+  --background-secondary: #0f0014;
   --foreground: #e2e8f0;
   --foreground-secondary: #94a3b8;
   --muted: #64748b;
 
-  /* Neon Blue Accent Colors */
-  --neon-blue: #00bfff;
-  --neon-blue-bright: #00e5ff;
-  --neon-blue-dim: #0099cc;
-  --neon-glow: rgba(0, 191, 255, 0.4);
+  /* Luxury Purple Accent Colors */
+  --neon-blue: #9d00ff;
+  --neon-blue-bright: #d580ff;
+  --neon-blue-dim: #5b0099;
+  --neon-glow: rgba(157, 0, 255, 0.4);
 
   /* Glass Effect */
-  --glass: rgba(10, 10, 20, 0.75);
-  --glass-border: rgba(0, 191, 255, 0.15);
-  --glass-hover: rgba(0, 191, 255, 0.25);
+  --glass: rgba(15, 0, 20, 0.75);
+  --glass-border: rgba(157, 0, 255, 0.15);
+  --glass-hover: rgba(157, 0, 255, 0.25);
 
   color-scheme: dark;
 }
 
 .light {
-  --background: #f8fafc;
+  --background: #fdfbff;
   --background-secondary: #ffffff;
-  --foreground: #0f172a;
-  --foreground-secondary: #334155;
+  --foreground: #1e1b4b;
+  --foreground-secondary: #475569;
   --muted: #64748b;
 
-  --neon-blue: #0077b6;
-  --neon-blue-bright: #0096c7;
-  --neon-blue-dim: #005f8a;
-  --neon-glow: rgba(0, 119, 182, 0.2);
+  --neon-blue: #7c3aed;
+  --neon-blue-bright: #a78bfa;
+  --neon-blue-dim: #5b21b6;
+  --neon-glow: rgba(124, 58, 237, 0.2);
 
   --glass: rgba(255, 255, 255, 0.85);
-  --glass-border: rgba(0, 119, 182, 0.2);
-  --glass-hover: rgba(0, 119, 182, 0.15);
+  --glass-border: rgba(124, 58, 237, 0.2);
+  --glass-hover: rgba(124, 58, 237, 0.15);
 
   color-scheme: light;
 }

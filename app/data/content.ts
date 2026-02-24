@@ -151,6 +151,7 @@ export const copy = {
                     icon: BugAntIcon,
                     skills: [
                         "Penetration Testing",
+                        "Red Team Operations",
                         "Vulnerability Assessment",
                         "Privilege Escalation",
                         "Social Engineering",
@@ -161,9 +162,9 @@ export const copy = {
                     title: "Defensive Security",
                     icon: ShieldCheckIcon,
                     skills: [
-                        "Security Monitoring (SIEM)",
+                        "SOC Monitoring",
+                        "SIEM Analysis",
                         "Endpoint Hardening",
-                        "Incident Response",
                         "Threat Intelligence",
                         "Access Control Policies",
                     ],
@@ -174,9 +175,11 @@ export const copy = {
                     skills: [
                         "Kali Linux Suite",
                         "Burp Suite / OWASP ZAP",
-                        "Nmap / Wireshark",
-                        "Metasploit Framework",
-                        "Splunk / QRadar",
+                        "Nmap",
+                        "Wireshark",
+                        "Metasploit",
+                        "Splunk",
+                        "QRadar",
                     ],
                 },
                 {
@@ -193,7 +196,12 @@ export const copy = {
                 {
                     title: "Cloud & DevOps",
                     icon: CloudIcon,
-                    skills: ["AWS Fundamentals", "Docker Containers", "Git Version Control", "CI/CD Concepts"],
+                    skills: [
+                        "AWS Fundamentals",
+                        "Docker Containers",
+                        "Git Version Control",
+                        "CI/CD Concepts",
+                    ],
                 },
                 {
                     title: "Operating Systems",
@@ -206,44 +214,55 @@ export const copy = {
             title: "Experience & Projects",
             items: [
                 {
-                    title: "CyberGuardX – Project Lead & Developer",
+                    title: "CyberGuardX — Project Lead & Developer (2026)",
                     description:
-                        "Intelligent Web Security Assessment Platform designed to simulate real-world security audits and compliance checks.",
+                        "Developed web-based security assessment platform simulating real-world penetration testing workflows.",
                     highlights: [
-                        "Developed an Email Breach Detection module cross-referencing known leak datasets.",
-                        "Implemented ML-based Phishing URL Detection to identify malicious links in real-time.",
-                        "Engineered a Password Strength Analyzer with entropy calculation and breach database integration.",
-                        "Built a Website Security Scanner for OWASP Top 10 vulnerabilities with automated risk scoring.",
-                        "Integrated comprehensive reporting and clean remediation guidance for non-technical users.",
+                        "Built Email Breach Detection module cross-referencing compromised credential datasets.",
+                        "Implemented Machine Learning-based Phishing URL Detection system.",
+                        "Designed Password Strength Analyzer using entropy-based risk scoring.",
+                        "Created automated OWASP Top 10 vulnerability scanner with risk prioritization and remediation guidance.",
+                        "Generated structured security reports aligned with industry best practices.",
                     ],
                 },
                 {
-                    title: "EvoTech – Founder & Technical Lead",
+                    title: "EvoTech — Founder & Technical Lead (2024)",
                     description:
-                        "Founded and scaled a tech services firm delivering secure web solutions and IT infrastructure to over 50 clients.",
+                        "Delivered secure web applications and IT infrastructure to 50+ clients.",
                     highlights: [
-                        "Directed security-focused development lifecycles, reducing client vulnerability exposure.",
-                        "Mitigated active phishing campaigns and social engineering attacks for business clients.",
-                        "Managed cross-functional remote teams to deliver projects on time and within budget.",
+                        "Reduced vulnerability exposure through secure SDLC and security hardening practices.",
+                        "Detected and mitigated phishing campaigns and social engineering threats.",
+                        "Managed remote cross-functional technical teams and project deployments.",
                     ],
                 },
                 {
-                    title: "AI Assistant Development – EvoTech",
+                    title: "Security Research & Lab Simulation (2025 – Present)",
                     description:
-                        "Architected an internal AI-driven automation tool to streamline technical support and operational workflows.",
+                        "Conducted simulated penetration testing in controlled lab environments.",
                     highlights: [
-                        "Engineered automated response workflows, reducing manual support ticket resolution time by 40%.",
-                        "Integrated secure API endpoints to ensure data privacy and system integrity.",
+                        "Performed network traffic analysis and anomaly detection using Wireshark.",
+                        "Executed vulnerability scanning and exploitation using Metasploit framework.",
+                        "Practiced OSINT investigations and attack surface mapping techniques.",
                     ],
                 },
                 {
-                    title: "Security Research & Lab Simulation",
+                    title: "CyberThreatX (v1.0) — SOC-in-a-Box Platform (2026)",
                     description:
-                        "Continuous engagement in advanced security simulations, CTFs, and Red Team exercises.",
+                        "Engineered lightweight SOC platform with real-time log ingestion, Sigma-based detection, and ML anomaly scoring.",
                     highlights: [
-                        "Conducted simulated penetration tests on controlled environments using Metasploit and Burp Suite.",
-                        "Analyzed network traffic patterns using Wireshark to detect anomalous behavior.",
-                        "Performed OSINT investigations to map attack surfaces and identify information leaks.",
+                        "Built Flask dashboard with alert triage, RBAC, correlation engine, and threat intelligence enrichment.",
+                        "Implemented Sigma-based detection pipeline with real-time log analysis and ML-driven anomaly scoring.",
+                        "Containerized the platform using Docker for scalable and production-ready deployment.",
+                    ],
+                },
+                {
+                    title: "ReconMaster — Advanced Reconnaissance Framework (2026)",
+                    description:
+                        "Developed modular automated reconnaissance framework with parallel subdomain enumeration and service discovery.",
+                    highlights: [
+                        "Integrated Nmap scanning, HTTP service detection, and cloud bucket enumeration with structured reporting.",
+                        "Designed scalable async architecture using FastAPI, Asyncio, and Playwright with stealth controls.",
+                        "Implemented proxy rotation, rate limiting, and evasion techniques for reliable large-scale reconnaissance.",
                     ],
                 },
             ],
@@ -275,10 +294,9 @@ export const copy = {
                 "Open to opportunities in Cybersecurity Engineering, SOC Analysis, and Security Research. Let's secure the future together.",
             focusLabel: "Current Focus",
             currentFocus:
-                "Enhancing CyberGuardX with advanced threat heuristics and preparing for the CompTIA Security+ certification to further validate industry-standard expertise.",
+                "Actively engineering CyberGuard's advanced threat heuristics, scaling CyberThreatX into a production-grade SOC platform with real-time detection, and expanding ReconMaster's offensive reconnaissance capabilities — while pursuing CompTIA Security+ certification to validate industry-standard expertise.",
         },
         focusAreas: [
-            "Penetration Testing",
             "Network Security",
             "Threat Analysis",
             "Security Auditing",
@@ -348,6 +366,7 @@ export const copy = {
                     icon: BugAntIcon,
                     skills: [
                         "اختبار الاختراق",
+                        "عمليات الفريق الأحمر",
                         "تقييم الثغرات",
                         "تصعيد الامتيازات",
                         "الهندسة الاجتماعية",
@@ -358,9 +377,9 @@ export const copy = {
                     title: "الأمن الدفاعي",
                     icon: ShieldCheckIcon,
                     skills: [
-                        "المراقبة الأمنية (SIEM)",
+                        "مراقبة SOC",
+                        "تحليل SIEM",
                         "تقوية الأنظمة الطرفية",
-                        "الاستجابة للحوادث",
                         "استخبارات التهديدات",
                         "سياسات التحكم في الوصول",
                     ],
@@ -371,9 +390,11 @@ export const copy = {
                     skills: [
                         "مجموعة Kali Linux",
                         "Burp Suite / OWASP ZAP",
-                        "Nmap / Wireshark",
-                        "Metasploit Framework",
-                        "Splunk / QRadar",
+                        "Nmap",
+                        "Wireshark",
+                        "Metasploit",
+                        "Splunk",
+                        "QRadar",
                     ],
                 },
                 {
@@ -390,7 +411,12 @@ export const copy = {
                 {
                     title: "السحابة وDevOps",
                     icon: CloudIcon,
-                    skills: ["أساسيات AWS", "حاويات Docker", "إدارة النسخ Git", "مفاهيم CI/CD"],
+                    skills: [
+                        "أساسيات AWS",
+                        "حاويات Docker",
+                        "إدارة النسخ Git",
+                        "مفاهيم CI/CD",
+                    ],
                 },
                 {
                     title: "أنظمة التشغيل",
@@ -403,44 +429,55 @@ export const copy = {
             title: "الخبرات والمشاريع",
             items: [
                 {
-                    title: "CyberGuardX – قائد المشروع والمطور",
+                    title: "CyberGuardX — قائد المشروع والمطور (2026)",
                     description:
-                        "منصة ذكية لتقييم أمن الويب مصممة لمحاكاة التدقيقات الأمنية الواقعية وفحوصات الامتثال.",
+                        "تطوير منصة تقييم أمان الويب القائمة على الويب التي تحاكي سير عمل اختبار الاختراق في العالم الحقيقي.",
                     highlights: [
-                        "تطوير وحدة للكشف عن اختراق البريد الإلكتروني عبر مقارنة قواعد بيانات التسريب المعروفة.",
-                        "تنفيذ كشف عناوين URL للتصيد باستخدام التعلم الآلي لتحديد الروابط الضارة في الوقت الفعلي.",
-                        "هندسة محلل قوة كلمات المرور مع حساب الإنتروبيا والتكامل مع قواعد بيانات الاختراق.",
-                        "بناء ماسح أمني للمواقع لثغرات OWASP Top 10 مع تسجيل آلي للمخاطر.",
-                        "تكامل تقارير شاملة وإرشادات معالجة واضحة للمستخدمين غير التقنيين.",
+                        "بناء وحدة الكشف عن اختراق البريد الإلكتروني مع مرجعية لقواعد بيانات البيانات المخترقة.",
+                        "تنفيذ نظام الكشف عن عناوين URL للتصيد باستخدام التعلم الآلي.",
+                        "تصميم محلل قوة كلمات المرور باستخدام حساب الإنتروبيا وتقييم المخاطر.",
+                        "إنشاء ماسح ضوئي لثغرات OWASP Top 10 بشكل آلي مع توجيهات للمعالجة.",
+                        "إصدار تقارير أمان منظمة تتماشى مع أفضل الممارسات في الصناعة.",
                     ],
                 },
                 {
-                    title: "EvoTech – المؤسس والقائد التقني",
+                    title: "EvoTech — المؤسس والقائد التقني (2024)",
                     description:
-                        "تأسيس وتوسيع شركة خدمات تقنية تقدم حلول ويب آمنة وبنية تحتية لتقنية المعلومات لأكثر من 50 عميلًا.",
+                        "تقديم تطبيقات ويب آمنة وبنية تحتية لتقنية المعلومات لأكثر من 50 عميلًا.",
                     highlights: [
-                        "توجيه دورات حياة التطوير التي تركز على الأمن، مما قلل من تعرض العملاء للثغرات.",
-                        "التخفيف من حملات التصيد النشطة وهجمات الهندسة الاجتماعية لعملاء الأعمال.",
-                        "إدارة فرق عمل عن بعد متعددة الوظائف لتسليم المشاريع في الوقت المحدد وضمن الميزانية.",
+                        "تقليص التعرض للثغرات من خلال ممارسات SDLC الآمنة وتعزيز الأمان.",
+                        "الكشف عن حملات التصيد وهجمات الهندسة الاجتماعية والتخفيف من حدتها.",
+                        "إدارة فرق تقنية متعددة الوظائف عن بعد ونشر المشاريع.",
                     ],
                 },
                 {
-                    title: "تطوير مساعد ذكاء اصطناعي – EvoTech",
+                    title: "الأبحاث الأمنية ومحاكاة المختبرات (2025 – حتى الآن)",
                     description:
-                        "هندسة أداة أتمتة مدعومة بالذكاء الاصطناعي لتبسيط الدعم الفني وسير العمل التشغيلي.",
+                        "إجراء اختبارات اختراق محاكاة في بيئات معملية خاضعة للرقابة.",
                     highlights: [
-                        "هندسة سير عمل الاستجابة الآلية، مما قلل وقت حل تذاكر الدعم اليدوية بنسبة 40%.",
-                        "دمج نقاط اتصال API آمنة لضمان خصوصية البيانات وسلامة النظام.",
+                        "تحليل حركة مرور الشبكة والكشف عن الشذوذ باستخدام Wireshark.",
+                        "تنفيذ استغلال الثغرات والمسح باستخدام إطار عمل Metasploit.",
+                        "ممارسة تحقيقات OSINT وتقنيات رسم خرائط سطح الهجوم.",
                     ],
                 },
                 {
-                    title: "البحث الأمني والمحاكاة المختبرية",
+                    title: "CyberThreatX (v1.0) — منصة SOC متكاملة (2026)",
                     description:
-                        "انخراط مستمر في عمليات محاكاة أمنية متقدمة، مسابقات CTF، وتمارين الفريق الأحمر.",
+                        "تطوير منصة SOC خفيفة مع استيعاب السجلات في الوقت الفعلي والكشف القائم على Sigma وتسجيل الشذوذ بالتعلم الآلي.",
                     highlights: [
-                        "إجراء اختبارات اختراق محاكاة على بيئات خاضعة للرقابة باستخدام Metasploit و Burp Suite.",
-                        "تحليل أنماط حركة الشبكة باستخدام Wireshark للكشف عن السلوك الشاذ.",
-                        "تنفيذ تحقيقات OSINT لرسم خرائط أسطح الهجوم وتحديد تسرب المعلومات.",
+                        "بناء لوحة معلومات Flask مع فرز التنبيهات و RBAC ومحرك الارتباط وإثراء استخبارات التهديدات.",
+                        "تنفيذ خط أنابيب الكشف القائم على Sigma مع تحليل السجلات في الوقت الفعلي.",
+                        "حاوية المنصة باستخدام Docker للنشر القابل للتوسع والجاهز للإنتاج.",
+                    ],
+                },
+                {
+                    title: "ReconMaster — إطار استطلاع متقدم (2026)",
+                    description:
+                        "تطوير إطار استطلاع آلي نمطي مع تعداد النطاقات الفرعية المتوازي واكتشاف الخدمات.",
+                    highlights: [
+                        "دمج مسح Nmap واكتشاف خدمات HTTP وتعداد حاويات السحابة مع تقارير منظمة.",
+                        "تصميم بنية غير متزامنة قابلة للتوسع باستخدام FastAPI و Asyncio و Playwright.",
+                        "تنفيذ تدوير البروكسي وتحديد المعدل وتقنيات التهرب للاستطلاع واسع النطاق.",
                     ],
                 },
             ],
@@ -472,10 +509,9 @@ export const copy = {
                 "منفتح للفرص في هندسة الأمن السيبراني، تحليل SOC، والبحث الأمني. دعنا نؤمن المستقبل معًا.",
             focusLabel: "التركيز الحالي",
             currentFocus:
-                "تعزيز CyberGuardX بتقنيات كشف تهديد متقدمة والتحضير لشهادة CompTIA Security+ للتحقق من الخبرة وفق المعايير الصناعية.",
+                "تطوير تقنيات الكشف المتقدمة في CyberGuard، وتوسيع CyberThreatX إلى منصة SOC جاهزة للإنتاج، وتعزيز قدرات الاستطلاع الهجومي في ReconMaster — مع السعي للحصول على شهادة CompTIA Security+ للتحقق من الخبرة وفق المعايير الصناعية.",
         },
         focusAreas: [
-            "اختبار الاختراق",
             "أمن الشبكات",
             "تحليل التهديدات",
             "التدقيق الأمني",
