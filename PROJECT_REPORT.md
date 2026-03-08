@@ -19,7 +19,7 @@ To provide a centralized, professional platform for hiring managers and technica
 - **Interactive Hero Section**: Immediate value proposition with "View CV" call-to-action, animated planet background, and professional summary.
 - **Infinite Scroll Certificates**: A premium, dual-row carousel showcasing authentic certifications (Fortinet, Cisco).
     - *Impact*: Demonstrates continuous learning and verified credentials in an engaging way.
-- **Digital Badges Gallery**: Visual representation of achievements (Ethical Hacker, FortiGate Operator).
+- **Digital Badges Gallery**: Visual representation of achievements (Ethical Hacker, FortiGate Operator, Cyber Threat Management, Network Defense).
 - **Project Showcase**: Detailed breakdown of major security projects:
     - **CyberGuardX**: AI-driven web security assessment platform with ML phishing detection, OWASP scanner, and breach detection.
     - **CyberThreatX (v1.0)**: SOC-in-a-Box platform with real-time log ingestion, Sigma-based detection, ML anomaly scoring, and Docker deployment.
@@ -85,8 +85,12 @@ To provide a centralized, professional platform for hiring managers and technica
 ### **Certifications & Badges**
 - Fortinet Certified Associate (FCA)
 - Cisco Ethical Hacker
+- Cisco – Cyber Threat Management
+- Cisco – Network Defense
 - ISC2 Candidate
 - FortiGate Operator
+- Cyber Threat Management Badge
+- Network Defense Badge
 
 ## 6. Enhancements & Future Work
 - **Advanced Threat Dashboard**: Integrating a real-time threat map into the CyberThreatX section.

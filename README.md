@@ -6,7 +6,7 @@ This is a professional cybersecurity portfolio website designed to showcase tech
 The platform highlights offensive and defensive security skills, hands-on lab simulations, and major projects including **CyberGuardX**, **CyberThreatX**, **ReconMaster**, and **EvoTech**.
 
 ## ✨ Key Features
-- **Professional CV Integration**: "View CV" functionality with direct PDF access.
+- **Professional CV Integration**: "View CV" functionality with direct PDF access (`My-CV.pdf`).
 - **Certificates Carousel**: A premium, seamless infinite-scrolling carousel displaying professional certifications (Fortinet, Cisco, etc.).
 - **Dual-Language Support**: Full English and Arabic localization with RTL layout support.
 - **Cybersecurity Projects**: Detailed showcase of security initiatives, including:
@@ -14,7 +14,7 @@ The platform highlights offensive and defensive security skills, hands-on lab si
     - **CyberThreatX (v1.0)**: SOC-in-a-Box platform with real-time log ingestion, Sigma-based detection, and ML anomaly scoring.
     - **ReconMaster**: Advanced automated reconnaissance framework with parallel enumeration and stealth controls.
     - **EvoTech**: Security-focused tech services firm delivering secure solutions to 50+ clients.
-- **Digital Badges**: Interactive gallery of earned badges (Ethical Hacker, ISC2 Candidate, FortiGate Operator).
+- **Digital Badges**: Interactive gallery of earned badges (Ethical Hacker, ISC2 Candidate, FortiGate Operator, Cyber Threat Management, Network Defense).
 - **Technical Skills**: Categorized display of tools (Kali Linux, Metasploit, Burp Suite) and domains (Offensive/Defensive Security).
 - **Premium Header**: Scroll-aware sticky header with backdrop blur, animated hover underlines, and spring-animated mobile menu.
 - **Interactive UI**: Glassmorphism design, neon glow effects, and smooth animations with dark/light mode support.

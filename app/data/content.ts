@@ -65,6 +65,16 @@ export const certifications = [
         issuer: "HP LIFE",
         file: "/certificates/HP%20LIFE%20%E2%80%93%20Effective%20Website%20Design.pdf",
     },
+    {
+        title: "Cisco – Cyber Threat Management",
+        issuer: "Cisco Networking Academy",
+        file: "/certificates/Cisco_Cyber_Threat_Management_cert.pdf",
+    },
+    {
+        title: "Cisco – Network Defense",
+        issuer: "Cisco Networking Academy",
+        file: "/certificates/Cisco_Network_Defense_cert.pdf",
+    },
 ];
 
 export const badges = [
@@ -83,6 +93,14 @@ export const badges = [
     {
         title: "ISC2 Candidate",
         image: "/Badges/ISC2-Candidate.png",
+    },
+    {
+        title: "Cyber Threat Management",
+        image: "/Badges/Cyber Threat Management.png",
+    },
+    {
+        title: "Network Defense",
+        image: "/Badges/Network Defense.png",
     },
 ];
 

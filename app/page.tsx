@@ -79,7 +79,7 @@ export default function Home() {
               <div className="flex flex-col items-center gap-3 pt-2 sm:flex-row sm:flex-wrap sm:gap-4 w-full justify-center lg:justify-start">
                 <a
                   className="btn-primary inline-flex items-center justify-center gap-2 text-xs sm:text-sm w-auto min-w-[120px] px-6"
-                  href="/certificates/CV-Abazar.pdf"
+                  href="/certificates/My-CV.pdf"
                   target="_blank"
                 >
                   <ArrowDownTrayIcon className="h-4 w-4" />
@@ -142,14 +142,14 @@ export default function Home() {
               <p className="text-sm leading-relaxed text-foreground-secondary sm:text-base">
                 {t.about.body}
               </p>
-              <div className="glass-card rounded-xl p-5 sm:rounded-2xl sm:p-6">
+              <div className={`glass-card rounded-xl p-5 sm:rounded-2xl sm:p-6 text-center ${isArabic ? "lg:text-right" : "lg:text-left"}`}>
                 <p
                   className={`font-display text-xs font-bold uppercase text-neon-blue sm:text-sm ${isArabic ? "tracking-normal" : "tracking-[0.15em] sm:tracking-[0.2em]"
                     }`}
                 >
                   {t.about.focusLabel}
                 </p>
-                <div className="mt-3 flex flex-wrap gap-2 sm:mt-4">
+                <div className="mt-3 flex flex-wrap justify-center gap-2 sm:mt-4 lg:justify-start">
                   {t.focusAreas.map((focus) => (
                     <span key={focus} className="tag">
                       {focus}
@@ -222,7 +222,7 @@ export default function Home() {
                 >
                   {t.education.focusLabel}
                 </p>
-                <div className="mt-3 flex flex-wrap gap-2 sm:mt-4">
+                <div className="mt-3 flex flex-wrap justify-center gap-2 sm:mt-4 lg:justify-start">
                   {t.focusAreas.map((focus) => (
                     <span key={focus} className="tag">
                       {focus}
