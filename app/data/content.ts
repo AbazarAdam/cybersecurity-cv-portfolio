@@ -254,6 +254,18 @@ export const copy = {
                     ],
                 },
                 {
+                    title: "Fawrico Platform — Cybersecurity Consultant & QA (2026)",
+                    description:
+                        "Cybersecurity Consultant & Quality Assurance — Conducted security assessments and QA on platform features.",
+                    highlights: [
+                        "Conducted security assessments and vulnerability analysis on platform features.",
+                        "Identified and reported security flaws and misconfigurations.",
+                        "Collaborated with developers to improve secure coding practices.",
+                        "Performed QA testing to ensure platform stability, functionality, and security compliance.",
+                        "Contributed to improving overall system reliability and user data protection.",
+                    ],
+                },
+                {
                     title: "Security Research & Lab Simulation (2025 – Present)",
                     description:
                         "Conducted simulated penetration testing in controlled lab environments.",

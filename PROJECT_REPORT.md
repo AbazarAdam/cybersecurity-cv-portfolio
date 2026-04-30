@@ -25,6 +25,7 @@ To provide a centralized, professional platform for hiring managers and technica
     - **CyberThreatX (v1.0)**: SOC-in-a-Box platform with real-time log ingestion, Sigma-based detection, ML anomaly scoring, and Docker deployment.
     - **ReconMaster**: Advanced automated reconnaissance framework with parallel subdomain enumeration, Nmap scanning, stealth controls, and structured reporting.
     - *Impact*: Proves ability to build and secure complex offensive and defensive systems.
+    - **Fawrico Platform**: Delivered security assessments, vulnerability analysis, and QA testing to strengthen platform stability and data protection.
 - **Premium Header**: Scroll-aware sticky navigation with backdrop blur, animated link underlines, and spring-animated mobile Sheet menu.
 - **Multi-Language Support**: Seamless toggling between English and Arabic.
     - *Impact*: Highlights bilingual communication skills suitable for global and regional roles.
@@ -50,6 +51,12 @@ To provide a centralized, professional platform for hiring managers and technica
 ### **EvoTech (Founder & Tech Lead)**
 - Leading a tech services firm delivering secure web solutions to 50+ clients.
 - **Impact**: Mitigated active phishing campaigns for clients and managed cross-functional teams.
+
+### **Fawrico Platform — Cybersecurity Consultant & QA (2026)**
+- Conducted security assessments and vulnerability analysis on platform features.
+- Identified and reported security flaws and misconfigurations.
+- Collaborated with developers to improve secure coding practices and performed QA testing to ensure platform stability and compliance.
+- **Impact**: Improved overall system reliability and user data protection through targeted security remediation and QA validation.
 
 ### **CyberGuardX (Project Lead)**
 - Developed an intelligent web security assessment platform.
