@@ -79,7 +79,7 @@ export default function Home() {
               <div className="flex flex-col items-center gap-3 pt-2 sm:flex-row sm:flex-wrap sm:gap-4 w-full justify-center lg:justify-start">
                 <a
                   className="btn-primary inline-flex items-center justify-center gap-2 text-xs sm:text-sm w-auto min-w-[120px] px-6"
-                  href="/certificates/AbazarAdam-CV.pdf"
+                  href="/certificates/MyCV-Abazar.pdf"
                   target="_blank"
                   rel="noreferrer noopener"
                 >
@@ -101,7 +101,7 @@ export default function Home() {
                 </a>
                 <span className="inline-flex items-center gap-2 rounded-full border border-neon-blue/20 bg-glass px-3 py-2 backdrop-blur-sm sm:px-4">
                   <PhoneIcon className="h-4 w-4 text-neon-blue" />
-                  <span dir="ltr">+60 11-2888 5466</span>
+                  <span dir="ltr">+60 17-580 3025</span>
                 </span>
               </div>
             </SectionReveal>
@@ -406,11 +406,11 @@ export default function Home() {
                     abazeradamwork@gmail.com
                   </a>
                   <a
-                    href="tel:+601128885466"
+                    href="tel:+60175803025"
                     className="flex items-center gap-3 rounded-lg p-2 transition-all hover:bg-neon-blue/10 hover:text-neon-blue"
                   >
                     <PhoneIcon className="h-5 w-5 text-neon-blue" />
-                    <span dir="ltr">+60 11-2888 5466</span>
+                    <span dir="ltr">+60 17-580 3025</span>
                   </a>
                   <a
                     href="https://github.com/AbazarAdam"
