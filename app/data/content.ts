@@ -118,7 +118,7 @@ export const copy = {
         ],
         hero: {
             kicker: "Cybersecurity Portfolio",
-            title: "Cybersecurity Engineer & Security Analyst",
+            title: "Cybersecurity Engineer & Software Engineer",
             summary:
                 "Specializing in offensive security, vulnerability assessment, and building resilient defense systems. Bridging the gap between attacking assumptions and securing critical infrastructure.",
             typewriter:
@@ -129,16 +129,16 @@ export const copy = {
         profile: {
             title: "Profile Snapshot",
             paragraphs: [
-                "Aspiring Cybersecurity Engineer and SOC Analyst with hands-on experience in penetration testing, vulnerability assessment, and security operations.",
+                "Aspiring Cybersecurity Engineer and Software Engineer with hands-on experience in penetration testing, vulnerability assessment, and security operations.",
                 "Founder of EvoTech, leading client security initiatives and mitigating real-world phishing threats.",
                 "Actively pursuing CompTIA Security+ (SY0-701) and ISC2 certifications to validate advanced security expertise.",
             ],
-            tags: ["Red Team", "SOC Analyst", "Vulnerability Assessment", "Cloud Security"],
+            tags: ["Red Team", "SOC Analyst", "Softwares", "Vulnerability Assessment", "Cloud Security"],
         },
         about: {
             title: "About Me",
             body:
-                "I am a Cybersecurity Engineering student and security practitioner passionate about offensive security and defensive architecture. My journey involves rigorous lab simulations in Kali Linux, practical web vulnerability analysis, and delivering security-first IT solutions through EvoTech. I aim to leverage my technical foundation in network security, OSINT, and automation to protect organizational assets as a Cybersecurity Engineer or SOC Analyst.",
+                "I am a Cybersecurity Engineering student and security practitioner passionate about offensive security and defensive architecture. My journey involves rigorous lab simulations in Kali Linux, practical web vulnerability analysis, and delivering security-first IT solutions through EvoTech. I aim to leverage my technical foundation in network security, OSINT, and automation to protect organizational assets as a Cybersecurity Engineer or Software Engineer.",
             focusLabel: "Core Competencies",
         },
         education: {
@@ -316,12 +316,12 @@ export const copy = {
         },
         objective: {
             title: "Career Objective",
-            text: "Bringing hands-on lab experience and practical security engineering skills to strengthen organizational defense.",
+            text: "Bringing hands-on lab experience and practical security & software engineering skills to strengthen organizational defense.",
         },
         contact: {
             title: "Contact",
             intro:
-                "Open to opportunities in Cybersecurity Engineering, SOC Analysis, and Security Research. Let's secure the future together.",
+                "Open to opportunities in Cybersecurity Engineering, Softwares, and Security Research. Let's secure the future together.",
             focusLabel: "Current Focus",
             currentFocus:
                 "Actively engineering CyberGuard's advanced threat heuristics, scaling CyberThreatX into a production-grade SOC platform with real-time detection, and expanding ReconMaster's offensive reconnaissance capabilities — while pursuing CompTIA Security+ certification to validate industry-standard expertise.",
