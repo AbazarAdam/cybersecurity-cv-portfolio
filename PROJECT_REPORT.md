@@ -1,12 +1,12 @@
-# Project Report: Cybersecurity Portfolio Website
+# Project Report: Software & Cybersecurity Portfolio Website
 
 ## 1. Project Overview
-**Project Name**: Cybersecurity Portfolio & CV Website
+**Project Name**: Abazar Adam Software & Cybersecurity Portfolio
 **Owner**: Abazar Adam
-**Role**: Cybersecurity Engineer & Security Analyst
+**Role**: Software Engineer & Cybersecurity Engineer
 
 **Purpose**:
-To provide a centralized, professional platform for hiring managers and technical recruiters to evaluate my cybersecurity skills, certifications, and project experience. The website acts as a dynamic CV, demonstrating both technical proficiency in web development (Next.js) and domain expertise in security.
+To provide a centralized, professional platform for hiring managers and technical recruiters to evaluate my software engineering, cybersecurity skills, certifications, and project experience. The website acts as a dynamic CV, demonstrating full-stack, mobile, and secure engineering capabilities.
 
 **Target Audience**:
 - Cybersecurity Recruiters & HR
@@ -31,8 +31,9 @@ To provide a centralized, professional platform for hiring managers and technica
     - *Impact*: Highlights bilingual communication skills suitable for global and regional roles.
 
 ### Technical Sections
-- **Skills Matrix**: Categorized view of Offensive Security, Defensive Security, Tools, and Programming skills.
+- **Skills Matrix**: Categorized view of software engineering, full-stack/mobile development, testing, cloud/tools, offensive security, and defensive security skills.
 - **Experience Timeline**: Chronological display of roles at EvoTech, CyberGuardX, CyberThreatX, ReconMaster, and academic achievements.
+- **Penril Datability Internship**: Software Engineering Intern experience building banking applications, a React Native mobile app, and an AI-assisted log analysis tool.
 
 ## 3. Technical Stack
 
@@ -51,6 +52,12 @@ To provide a centralized, professional platform for hiring managers and technica
 ### **EvoTech (Founder & Tech Lead)**
 - Leading a tech services firm delivering secure web solutions to 50+ clients.
 - **Impact**: Mitigated active phishing campaigns for clients and managed cross-functional teams.
+
+### **Penril Datability (M) Sdn Bhd — Software Engineering Intern (2026)**
+- Built a full-stack banking application using Spring Boot, React, and MySQL with REST APIs, JWT, RBAC, account management, and transactional transfers.
+- Developed a React Native mobile application integrated with the backend API.
+- Conducted authorized penetration testing and security hardening.
+- Contributed to an AI-assisted log analysis tool and implemented JUnit/Mockito service-layer tests.
 
 ### **Fawrico Platform — Cybersecurity Consultant & QA (2026)**
 - Conducted security assessments and vulnerability analysis on platform features.
@@ -88,6 +95,8 @@ To provide a centralized, professional platform for hiring managers and technica
 ### **Professional Competencies**
 - **Languages**: Arabic (Native), English (Fluent), Spanish (Beginner).
 - **Soft Skills**: Strategic Risk Assessment, Team Leadership, Technical Documentation.
+- **Software Engineering**: Java, Python, C/C++, SQL, Bash, Spring Boot, React, React Native, FastAPI, Flask, REST APIs, JWT, RBAC, MySQL, PostgreSQL, JUnit, Mockito, unit testing, debugging, OOP, SDLC, secure coding, CI/CD fundamentals, cloud deployment, AI integration, Git, Docker, Linux.
+- **CV**: [View the current CV](/certificates/MyCV-Abazar.pdf)
 
 ### **Certifications & Badges**
 - Fortinet Certified Associate (FCA)

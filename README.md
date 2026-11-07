@@ -1,12 +1,12 @@
-# Cybersecurity Portfolio Website — Professional CV & Security Projects
+# Abazar Adam Portfolio — Software & Cybersecurity Engineering
 
 ## 🛡️ Project Overview
-This is a professional cybersecurity portfolio website designed to showcase technical expertise, certifications, and security projects. It serves as an interactive CV for a Cybersecurity Engineer and Security Analyst, featuring a modern, responsive design with dual-language support (English and Arabic).
+This is a professional portfolio website for Abazar Adam, a Software Engineer and Cybersecurity Engineer. It showcases full-stack and mobile development, secure engineering, certifications, and security projects with dual-language support (English and Arabic).
 
 The platform highlights offensive and defensive security skills, hands-on lab simulations, and major projects including **CyberGuardX**, **CyberThreatX**, **ReconMaster**, and **EvoTech**.
 
 ## ✨ Key Features
-- **Professional CV Integration**: "View CV" functionality with direct PDF access (`My-CV.pdf`).
+- **Professional CV Integration**: "View CV" functionality with direct PDF access at `/certificates/MyCV-Abazar.pdf`.
 - **Certificates Carousel**: A premium, seamless infinite-scrolling carousel displaying professional certifications (Fortinet, Cisco, etc.).
 - **Dual-Language Support**: Full English and Arabic localization with RTL layout support.
 - **Cybersecurity Projects**: Detailed showcase of security initiatives, including:
@@ -16,7 +16,8 @@ The platform highlights offensive and defensive security skills, hands-on lab si
     - **EvoTech**: Security-focused tech services firm delivering secure solutions to 50+ clients.
     - **Fawrico Platform**: Cybersecurity consultancy and QA work focusing on security assessments, vulnerability analysis, and platform reliability improvements.
 - **Digital Badges**: Interactive gallery of earned badges (Ethical Hacker, ISC2 Candidate, FortiGate Operator, Cyber Threat Management, Network Defense).
-- **Technical Skills**: Categorized display of tools (Kali Linux, Metasploit, Burp Suite) and domains (Offensive/Defensive Security).
+- **Technical Skills**: Categorized display of software engineering, full-stack/mobile development, testing, cloud/tools, and offensive/defensive security skills.
+- **Software Engineering Experience**: Penril Datability internship building Spring Boot, React, React Native, and MySQL banking solutions plus an AI-assisted log analysis tool.
 - **Premium Header**: Scroll-aware sticky header with backdrop blur, animated hover underlines, and spring-animated mobile menu.
 - **Interactive UI**: Glassmorphism design, neon glow effects, and smooth animations with dark/light mode support.
 - **Responsive Design**: Fully optimized for desktop, tablet, and mobile devices.
@@ -51,8 +52,8 @@ The project follows a modular Next.js App Router structure:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/AbazarAdam/cybersecurity-cv-portfolio.git
-    cd cybersecurity-cv-portfolio
+    git clone https://github.com/AbazarAdam/abazar-portfolio.git
+    cd abazar-portfolio
     ```
 
 2.  **Install dependencies:**
