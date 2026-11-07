@@ -117,10 +117,10 @@ export const copy = {
             { label: "Contact", href: "#contact" },
         ],
         hero: {
-            kicker: "Cybersecurity Portfolio",
-            title: "Cybersecurity Engineer & Software Engineer",
+            kicker: "Software Engineering & Cybersecurity Portfolio",
+            title: "Software Engineer & Cybersecurity Engineer",
             summary:
-                "Specializing in offensive security, vulnerability assessment, and building resilient defense systems. Bridging the gap between attacking assumptions and securing critical infrastructure.",
+                "Building full-stack and mobile applications while applying offensive security, vulnerability assessment, and secure engineering practices.",
             typewriter:
                 "Analyzing threats. Fortifying networks. Securing the future.",
             ctaDownload: "Download CV",
@@ -130,10 +130,10 @@ export const copy = {
             title: "Profile Snapshot",
             paragraphs: [
                 "Aspiring Cybersecurity Engineer and Software Engineer with hands-on experience in penetration testing, vulnerability assessment, and security operations.",
-                "Founder of EvoTech, leading client security initiatives and mitigating real-world phishing threats.",
-                "Actively pursuing CompTIA Security+ (SY0-701) and ISC2 certifications to validate advanced security expertise.",
+                "Founder of EvoTech, delivering secure technology solutions and leading client security initiatives for 50+ clients.",
+                "Experienced in full-stack, mobile, and secure software development across academic and professional projects.",
             ],
-            tags: ["Red Team", "SOC Analyst", "Softwares", "Vulnerability Assessment", "Cloud Security"],
+            tags: ["Full-Stack Development", "Mobile Development", "Red Team", "Vulnerability Assessment", "Cloud Security"],
         },
         about: {
             title: "About Me",
@@ -143,10 +143,21 @@ export const copy = {
         },
         education: {
             title: "Education",
-            degree: "Bachelor of Computer Science (Hons.) – Cybersecurity",
-            school: "Multimedia University (MMU), Malaysia | 2023 – Present",
+            degree: "B.Comp.Sc. (Hons.) in Cybersecurity",
+            school: "Multimedia University (MMU), Malaysia | 2023 – 2027",
             award: "Dean's List Award – 2025",
-            focusLabel: "Academic Focus",
+            focusLabel: "Relevant Coursework",
+            coursework: [
+                "Ethical Hacking and Penetration Testing",
+                "Cybersecurity Fundamentals",
+                "Network Security",
+                "Cryptography and Data Security",
+                "Software Engineering Fundamentals",
+                "Object-Oriented Programming and Data Structures",
+                "Algorithm Design and Analysis",
+                "Database Fundamentals",
+                "Computer Networks",
+            ],
         },
         certifications: {
             title: "Certifications",
@@ -154,8 +165,6 @@ export const copy = {
                 "Verified credentials demonstrating technical proficiency in cybersecurity and network defense.",
             view: "View Certificate",
             download: "Download",
-            inProgress:
-                "Currently pursuing: CompTIA Security+ (SY0-701) & ISC2 Certified in Cybersecurity (CC).",
         },
         badges: {
             title: "Badges & Achievements",
@@ -226,11 +235,69 @@ export const copy = {
                     icon: ComputerDesktopIcon,
                     skills: ["Linux (Debian/RedHat)", "Windows Server", "Active Directory"],
                 },
+                {
+                    title: "Software Engineering",
+                    icon: CodeBracketIcon,
+                    skills: [
+                        "Java",
+                        "Python",
+                        "C / C++",
+                        "SQL",
+                        "Bash",
+                        "Object-Oriented Programming",
+                        "SDLC",
+                        "Secure Coding",
+                    ],
+                },
+                {
+                    title: "Full-Stack & Mobile",
+                    icon: ComputerDesktopIcon,
+                    skills: [
+                        "Spring Boot",
+                        "React",
+                        "React Native",
+                        "FastAPI",
+                        "Flask",
+                        "REST APIs",
+                        "JWT",
+                        "RBAC",
+                    ],
+                },
+                {
+                    title: "Testing, Cloud & Tools",
+                    icon: CloudIcon,
+                    skills: [
+                        "MySQL",
+                        "PostgreSQL",
+                        "JUnit",
+                        "Mockito",
+                        "Unit Testing",
+                        "Debugging",
+                        "CI/CD Fundamentals",
+                        "Cloud Deployment",
+                        "AI Integration",
+                        "Git",
+                        "Docker",
+                        "Linux",
+                    ],
+                },
             ],
         },
         experience: {
             title: "Experience & Projects",
             items: [
+                {
+                    title: "Penril Datability (M) Sdn Bhd — Software Engineering Intern (2026)",
+                    description:
+                        "Built full-stack banking applications, mobile experiences, and an AI-assisted log analysis tool while applying secure engineering practices.",
+                    highlights: [
+                        "Built a full-stack banking application using Spring Boot, React, and MySQL with REST APIs, JWT authentication, RBAC, account management, and transactional transfers.",
+                        "Developed a React Native mobile application integrated with the backend API, including authentication, account views, transaction history, transfers, and profile features.",
+                        "Conducted authorized penetration testing and security hardening for access control, unsafe file handling, security misconfigurations, and dependency vulnerabilities.",
+                        "Contributed to an internal AI-assisted log analysis tool across log processing, frontend/backend integration, AI analysis features, and application testing.",
+                        "Implemented service-layer unit tests using JUnit and Mockito and improved error handling, configuration, and technical documentation.",
+                    ],
+                },
                 {
                     title: "CyberGuardX — Project Lead & Developer (2026)",
                     description:
@@ -324,7 +391,7 @@ export const copy = {
                 "Open to opportunities in Cybersecurity Engineering, Softwares, and Security Research. Let's secure the future together.",
             focusLabel: "Current Focus",
             currentFocus:
-                "Actively engineering CyberGuard's advanced threat heuristics, scaling CyberThreatX into a production-grade SOC platform with real-time detection, and expanding ReconMaster's offensive reconnaissance capabilities — while pursuing CompTIA Security+ certification to validate industry-standard expertise.",
+                "Actively engineering CyberGuard's advanced threat heuristics, scaling CyberThreatX into a production-grade SOC platform with real-time detection, and expanding ReconMaster's offensive reconnaissance capabilities.",
         },
         focusAreas: [
             "Network Security",
@@ -345,10 +412,10 @@ export const copy = {
             { label: "التواصل", href: "#contact" },
         ],
         hero: {
-            kicker: "محفظة الأمن السيبراني",
-            title: "مهندس أمن سيبراني ومحلل أمن معلومات",
+            kicker: "محفظة هندسة البرمجيات والأمن السيبراني",
+            title: "مهندس برمجيات ومهندس أمن سيبراني",
             summary:
-                "متخصص في الأمن الهجومي، وتقييم الثغرات، وبناء أنظمة دفاعية مرنة. أعمل على سد الفجوة بين اختبار الأنظمة وحماية البنية التحتية الحيوية.",
+                "أبني تطبيقات متكاملة وتطبيقات للهواتف مع تطبيق ممارسات الأمن الهجومي وتقييم الثغرات والهندسة الآمنة.",
             typewriter: "تحليل التهديدات. تحصين الشبكات. تأمين المستقبل.",
             ctaDownload: "تحميل السيرة الذاتية",
             ctaContact: "تواصل معي",
@@ -358,7 +425,7 @@ export const copy = {
             paragraphs: [
                 "مهندس أمن سيبراني ومحلل SOC طموح بخبرة عملية في اختبار الاختراق وتقييم الثغرات والعمليات الأمنية.",
                 "مؤسس EvoTech، أقود مبادرات أمنية للعملاء وأعمل على التخفيف من مخاطر التصيد الاحتيالي الواقعية.",
-                "أسعى حاليًا للحصول على شهادات CompTIA Security+ (SY0-701) و ISC2 لتوثيق الخبرات الأمنية المتقدمة.",
+                "مؤسس EvoTech، أقدم حلولًا تقنية آمنة وأقود مشاريع لأكثر من 50 عميلًا.",
             ],
             tags: ["الفريق الأحمر", "محلل SOC", "تقييم الثغرات", "أمن السحابة"],
         },
@@ -370,10 +437,21 @@ export const copy = {
         },
         education: {
             title: "التعليم",
-            degree: "بكالوريوس علوم الحاسب (مع مرتبة الشرف) – الأمن السيبراني",
-            school: "جامعة الوسائط المتعددة (MMU)، ماليزيا | 2023 – حتى الآن",
+            degree: "بكالوريوس علوم الحاسب (مع مرتبة الشرف) في الأمن السيبراني",
+            school: "جامعة الوسائط المتعددة (MMU)، ماليزيا | 2023 – 2027",
             award: "قائمة العميد – 2025",
-            focusLabel: "التركيز الأكاديمي",
+            focusLabel: "المقررات ذات الصلة",
+            coursework: [
+                "القرصنة الأخلاقية واختبار الاختراق",
+                "أساسيات الأمن السيبراني",
+                "أمن الشبكات",
+                "التشفير وأمن البيانات",
+                "أساسيات هندسة البرمجيات",
+                "البرمجة كائنية التوجه وهياكل البيانات",
+                "تصميم الخوارزميات وتحليلها",
+                "أساسيات قواعد البيانات",
+                "شبكات الحاسوب",
+            ],
         },
         certifications: {
             title: "الشهادات",
@@ -381,8 +459,6 @@ export const copy = {
                 "اعتمادات موثقة تظهر الكفاءة التقنية في الأمن السيبراني والدفاع عن الشبكات.",
             view: "عرض الشهادة",
             download: "تنزيل",
-            inProgress:
-                "قيد التنفيذ: CompTIA Security+ (SY0-701) وشهادة ISC2 المعتمدة في الأمن السيبراني (CC).",
         },
         badges: {
             title: "الشارات والإنجازات",
@@ -453,11 +529,69 @@ export const copy = {
                     icon: ComputerDesktopIcon,
                     skills: ["Linux (Debian/RedHat)", "Windows Server", "Active Directory"],
                 },
+                {
+                    title: "هندسة البرمجيات",
+                    icon: CodeBracketIcon,
+                    skills: [
+                        "Java",
+                        "Python",
+                        "C / C++",
+                        "SQL",
+                        "Bash",
+                        "البرمجة كائنية التوجه",
+                        "دورة حياة تطوير البرمجيات",
+                        "البرمجة الآمنة",
+                    ],
+                },
+                {
+                    title: "التطوير المتكامل وتطبيقات الهاتف",
+                    icon: ComputerDesktopIcon,
+                    skills: [
+                        "Spring Boot",
+                        "React",
+                        "React Native",
+                        "FastAPI",
+                        "Flask",
+                        "واجهات REST",
+                        "JWT",
+                        "RBAC",
+                    ],
+                },
+                {
+                    title: "الاختبار والسحابة والأدوات",
+                    icon: CloudIcon,
+                    skills: [
+                        "MySQL",
+                        "PostgreSQL",
+                        "JUnit",
+                        "Mockito",
+                        "اختبار الوحدات",
+                        "تصحيح الأخطاء",
+                        "أساسيات CI/CD",
+                        "النشر السحابي",
+                        "تكامل الذكاء الاصطناعي",
+                        "Git",
+                        "Docker",
+                        "Linux",
+                    ],
+                },
             ],
         },
         experience: {
             title: "الخبرات والمشاريع",
             items: [
+                {
+                    title: "Penril Datability (M) Sdn Bhd — متدرب هندسة برمجيات (2026)",
+                    description:
+                        "بناء تطبيقات مصرفية متكاملة وتجارب للهواتف وأداة لتحليل السجلات بمساعدة الذكاء الاصطناعي مع تطبيق ممارسات الهندسة الآمنة.",
+                    highlights: [
+                        "بناء تطبيق مصرفي متكامل باستخدام Spring Boot وReact وMySQL مع واجهات REST ومصادقة JWT والتحكم في الوصول RBAC وإدارة الحسابات والتحويلات المالية.",
+                        "تطوير تطبيق React Native متكامل مع الواجهة الخلفية، يتضمن المصادقة وعرض الحسابات وسجل المعاملات والتحويلات وميزات الملف الشخصي.",
+                        "إجراء اختبارات اختراق مصرح بها وتعزيز الأمان لمعالجة مشكلات التحكم في الوصول والتعامل غير الآمن مع الملفات وإعدادات الأمان الخاطئة وثغرات التبعيات.",
+                        "المساهمة في أداة داخلية لتحليل السجلات بمساعدة الذكاء الاصطناعي عبر معالجة السجلات وتكامل الواجهتين الأمامية والخلفية وميزات التحليل والاختبار.",
+                        "تنفيذ اختبارات وحدات لطبقة الخدمات باستخدام JUnit وMockito وتحسين معالجة الأخطاء والإعدادات والتوثيق التقني.",
+                    ],
+                },
                 {
                     title: "CyberGuardX — قائد المشروع والمطور (2026)",
                     description:
@@ -539,7 +673,7 @@ export const copy = {
                 "منفتح للفرص في هندسة الأمن السيبراني، تحليل SOC، والبحث الأمني. دعنا نؤمن المستقبل معًا.",
             focusLabel: "التركيز الحالي",
             currentFocus:
-                "تطوير تقنيات الكشف المتقدمة في CyberGuard، وتوسيع CyberThreatX إلى منصة SOC جاهزة للإنتاج، وتعزيز قدرات الاستطلاع الهجومي في ReconMaster — مع السعي للحصول على شهادة CompTIA Security+ للتحقق من الخبرة وفق المعايير الصناعية.",
+                "تطوير تقنيات الكشف المتقدمة في CyberGuard، وتوسيع CyberThreatX إلى منصة SOC جاهزة للإنتاج، وتعزيز قدرات الاستطلاع الهجومي في ReconMaster.",
         },
         focusAreas: [
             "أمن الشبكات",

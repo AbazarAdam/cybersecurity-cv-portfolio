@@ -79,7 +79,7 @@ export default function Home() {
               <div className="flex flex-col items-center gap-3 pt-2 sm:flex-row sm:flex-wrap sm:gap-4 w-full justify-center lg:justify-start">
                 <a
                   className="btn-primary inline-flex items-center justify-center gap-2 text-xs sm:text-sm w-auto min-w-[120px] px-6"
-                  href="/certificates/MyCV-Abazar.pdf"
+                  href="/certificates/MyCV-Abazar.pdf?v=2026"
                   target="_blank"
                   rel="noreferrer noopener"
                 >
@@ -214,6 +214,9 @@ export default function Home() {
                 </p>
                 <p className="mt-3 text-xs font-semibold text-neon-blue sm:mt-4 sm:text-sm">
                   {t.education.award}
+                  <span className="mt-3 block text-xs text-foreground-secondary sm:text-sm">
+                    {t.education.coursework.join(" • ")}
+                  </span>
                 </p>
               </div>
               <div className={`glass-card rounded-xl p-5 sm:rounded-2xl sm:p-6 text-center ${isArabic ? "lg:text-right" : "lg:text-left"}`}>
@@ -248,9 +251,6 @@ export default function Home() {
             <div className="mt-8" dir="ltr">
               <CertificatesCarousel />
             </div>
-            <p className={`mt-4 text-xs text-foreground-secondary sm:mt-6 sm:text-sm text-center ${isArabic ? "lg:text-right" : "lg:text-left"}`}>
-              {t.certifications.inProgress}
-            </p>
           </SectionReveal>
         </section>
 

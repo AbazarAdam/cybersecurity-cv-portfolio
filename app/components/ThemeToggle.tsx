@@ -1,7 +1,7 @@
 "use client";
 
 import { MoonIcon, SunIcon } from "@heroicons/react/24/outline";
-import { useContext, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 // Inline context to avoid server-side errors
 import { createContext } from "react";
@@ -22,18 +22,15 @@ export default function ThemeToggle() {
   const [localTheme, setLocalTheme] = useState<Theme>("light");
 
   useEffect(() => {
-    setMounted(true);
-    const saved = localStorage.getItem("theme") as Theme | null;
-    if (saved) {
-      setLocalTheme(saved);
+    const timer = window.setTimeout(() => {
+      setMounted(true);
+      const saved = localStorage.getItem("theme") as Theme | null;
+      const theme = saved ?? "light";
+      setLocalTheme(theme);
       document.documentElement.classList.remove("dark", "light");
-      document.documentElement.classList.add(saved);
-    } else {
-      // Default to light if no preference
-      setLocalTheme("light");
-      document.documentElement.classList.remove("dark", "light");
-      document.documentElement.classList.add("light");
-    }
+      document.documentElement.classList.add(theme);
+    }, 0);
+    return () => window.clearTimeout(timer);
   }, []);
 
   const toggleTheme = () => {

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 
 /**
  * HeroBackground — Animated gradient mesh with floating glow orbs.
@@ -15,7 +15,8 @@ export default function HeroBackground() {
     const [mounted, setMounted] = useState(false);
 
     useEffect(() => {
-        setMounted(true);
+        const timer = window.setTimeout(() => setMounted(true), 0);
+        return () => window.clearTimeout(timer);
     }, []);
 
     if (!mounted) return null;

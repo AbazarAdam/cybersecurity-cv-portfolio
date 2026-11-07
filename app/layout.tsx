@@ -30,20 +30,20 @@ const cairo = Cairo({
 });
 
 export const metadata: Metadata = {
-  title: "Abazar Adam | Cybersecurity Engineering",
+  title: "Abazar Adam | Software & Cybersecurity Engineering",
   description:
-    "Cybersecurity engineering student focused on offensive security, security analysis, and hands-on lab practice.",
+    "Abazar Adam is a software and cybersecurity engineer building full-stack, mobile, and secure engineering solutions.",
   openGraph: {
-    title: "Abazar Adam | Cybersecurity Engineering",
+    title: "Abazar Adam | Software & Cybersecurity Engineering",
     description:
-      "Cybersecurity engineering student focused on offensive security, security analysis, and hands-on lab practice.",
+      "Abazar Adam is a software and cybersecurity engineer building full-stack, mobile, and secure engineering solutions.",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Abazar Adam | Cybersecurity Engineering",
+    title: "Abazar Adam | Software & Cybersecurity Engineering",
     description:
-      "Cybersecurity engineering student focused on offensive security, security analysis, and hands-on lab practice.",
+      "Abazar Adam is a software and cybersecurity engineer building full-stack, mobile, and secure engineering solutions.",
   },
 };
 
